@@ -23,7 +23,7 @@ const ListOfEmp = () => {
   }, []);
 
   const handleAddEmployeeClick = () => {
-    navigate('/add-employee');
+    navigate('add-employee');
   };
 
   const updateEmployee = (id) => {
