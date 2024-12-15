@@ -26,7 +26,7 @@ const AddEmp = () => {
     console.log('Employee Added:', formData);
     createEmployees(formData).then((res) => {
       console.log(res.data);
-      navigate('/')
+      navigate('/CRUDsystem')
     });
   }
 

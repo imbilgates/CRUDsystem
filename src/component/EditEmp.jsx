@@ -16,7 +16,7 @@ const EditEmp = () => {
             });
 
         } else {
-            navigate("/")
+            navigate("/CRUDsystem")
         }
     }, [])
 
@@ -40,7 +40,7 @@ const EditEmp = () => {
         e.preventDefault();
         updateEmployees(id, formData).then((responce) => {
             console.log(responce.data);
-            navigate('/')
+            navigate('/CRUDsystem')
         }).catch((err) => {
             console.log(err.message);
         });
