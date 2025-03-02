@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const REST_API_BASE_URL = "https://springempapi.onrender.com/api/employees"
+const REST_API_BASE_URL = "https://ems-backend-4e4m.onrender.com"
 
 export const listEmployees = () => axios.get(REST_API_BASE_URL);
 

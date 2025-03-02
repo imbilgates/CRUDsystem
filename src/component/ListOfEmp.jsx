@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { deleteById, listEmployees } from '../service/EmpService';
 import { useNavigate } from 'react-router-dom';
 

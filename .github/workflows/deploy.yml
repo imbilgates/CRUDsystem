@@ -22,7 +22,7 @@ jobs:
 
       - name: Build project
         env:
-          VITE_REST_API_BASE_URL: https://springempapi.onrender.com/api/employees
+          VITE_REST_API_BASE_URL: https://ems-backend-4e4m.onrender.com
         run: npm run build
 
       - name: Upload production-ready build files
