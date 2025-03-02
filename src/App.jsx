@@ -6,7 +6,7 @@ import AddEmp from './component/AddEmp';
 import EditEmp from './component/EditEmp';
 import { listEmployees } from './service/EmpService';
 
-const PING_API_URL = "https://ems-backend-4e4m.onrender.com/"; // Lightweight ping endpoint
+const PING_API_URL = "https://ems-backend-4e4m.onrender.com/api/employees"; // Lightweight ping endpoint
 
 function App() {
   const [isWakingUp, setIsWakingUp] = useState(true);
